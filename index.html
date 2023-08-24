@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="sytle.css">
+    
+     <title>Descubra o número</title>
+</head>
+<body>
+    <h1 class="titulo">Descubra o número</h1>
+
+    <h3 class="pergunta">Diga um número entre <span id="menor-valor"></span> e <span id="maior-valor"></span></h3>
+
+    <div id="chute" class="mensagem">
+ 
+    </div>
+
+</body>
+<footer class="rodape">
+    <div class="aviso">
+        <p class="aviso__primeiro">Aviso: Verifique se o seu microfone está ativo!</p>
+        <p class="aviso__segundo">Não funciona em alguns navegadores.</p>
+   
+        <ul>
+            <li class="link_github">
+                <i class="fa-brands fa-github fa-lg" style="color: #edd8c7;"></i> <a href="https://github.com/LucassSy" class="link_github">LucassSy</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="app/sortearNumero.js"></script>
+<script src="app/reconhecerVoz.js"></script>
+<script src="app/validacao.js"></script>
+<script src="app/numeroNegativo.js"></script>
+</html>
